@@ -18,6 +18,7 @@ function johnLennonFacts(facts) {
   while (i < facts.length) {
     newFacts.push(facts[i] + '!!!')
     i++
+    console.log("foo!!!", "bar!!!")
   }
   return newFacts
 }
