@@ -13,7 +13,11 @@ function johnLennonFacts(facts) {
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
-  var newFacts = ["foo", "bar"];
+var facts = [
+  "foo",
+  "bar"
+]
+  var newFacts = [];
   let i = 0
   while (i < facts.length) {
     newFacts.push(facts[i] + '!!!')
